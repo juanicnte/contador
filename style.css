@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body{
+    margin: 10rem;
+    background-color: #202020;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+h1{
+    color: #8D00FF;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 2rem;
+}
+.boton{
+    margin: 0.5rem;
+    padding: 7px;
+    font-family: 'Anton', sans-serif;
+    background-color: #000000;
+    border: 1px solid #8D00FF;
+    color: #fff;
+    cursor: crosshair;
+}
+.boton:active{
+    background-color: #8c00ffb4;
+}
+.buttons-box{
+    margin-top: 1rem;
+}
